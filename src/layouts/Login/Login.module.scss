@@ -1,0 +1,98 @@
+.wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    background: #724188;
+    height: 400px;
+    width: 25%;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.username {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+}
+
+.label {
+    color: #fff;
+    font-size: 20px;
+}
+
+.password {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.input {
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.submit-btn {
+    margin: 0 88px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    font-size: 16px;
+    font-weight: 600;
+    color: #724188;
+    cursor: pointer;
+
+    &:hover {
+        border: 2px solid #fff;
+        background-color: #724188;
+        color: #fff;
+    }
+}
+
+.login-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 70px;
+    position: fixed;
+    top: 20px;
+    right: 0;
+    padding: 12px;
+    background-color: #fff;
+    border: 2px solid #25b24a;
+    border-radius: 10px;
+    animation: fadeIn linear .3s ;
+} 
+
+@keyframes fadeIn {
+    from {
+        right: -400px;
+    } to {
+        right: 0;
+    }
+}
+
+.status {
+    color: #25b24a;
+    font-size: 16px;
+}
+
+.description {
+    color: #333;
+    font-size: 14px;
+}
+
